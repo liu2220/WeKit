@@ -3744,4 +3744,23 @@
     <string name="structured_storage_saving">正在儲存…</string>
     <string name="structured_storage_save_failed">儲存失敗，先前的設定未變更。請檢查記錄後重試。</string>
     <string name="structured_storage_unavailable">此功能的資料無法載入。請檢查遷移記錄並重新啟動微信重試。</string>
+    <!-- SummarizeGroupChat（移植自 fkwechat 群總結） -->
+    <string name="feature_summarize_group_chat_name">群聊總結</string>
+    <string name="feature_summarize_group_chat_description">讀取目前群聊最近訊息，呼叫 OpenAI 相容大模型產生結構化總結；長按選單項目可設定 API。</string>
+    <string name="summarize_group_chat_action_label">群聊總結 (長按設定)</string>
+    <string name="summarize_group_chat_title">群聊總結</string>
+    <string name="summarize_group_chat_loading">正在產生總結…</string>
+    <string name="summarize_group_chat_group_only">此功能僅限群聊使用。</string>
+    <string name="summarize_group_chat_no_key">請先設定 API Key（長按選單項目）。</string>
+    <string name="summarize_group_chat_empty">沒有可總結的文字訊息。</string>
+    <string name="summarize_group_chat_empty_result">（模型未傳回內容）</string>
+    <string name="summarize_group_chat_copy">複製全文</string>
+    <string name="summarize_group_chat_share">傳給微信</string>
+    <string name="summarize_group_chat_moments">朋友圈</string>
+    <string name="summarize_group_chat_settings_title">群聊總結設定</string>
+    <string name="summarize_group_chat_set_base_url">API 位址</string>
+    <string name="summarize_group_chat_set_key">API Key</string>
+    <string name="summarize_group_chat_set_model">模型名稱</string>
+    <string name="summarize_group_chat_set_count">讀取訊息條數 (10-500)</string>
+    <string name="dialog_save">儲存</string>
 </resources>

@@ -3730,4 +3730,23 @@
     <string name="structured_storage_saving">Saving…</string>
     <string name="structured_storage_save_failed">Could not save. Your previous settings are unchanged. Check the logs and try again.</string>
     <string name="structured_storage_unavailable">This feature’s data could not be loaded. Check the migration logs and restart WeChat to retry.</string>
+    <!-- SummarizeGroupChat (ported from fkwechat group summary) -->
+    <string name="feature_summarize_group_chat_name">Group chat summary</string>
+    <string name="feature_summarize_group_chat_description">Read the latest messages of the current group chat and generate a structured summary with an OpenAI-compatible LLM. Long-press the menu item to configure the API.</string>
+    <string name="summarize_group_chat_action_label">Summarize (long-press to configure)</string>
+    <string name="summarize_group_chat_title">Group chat summary</string>
+    <string name="summarize_group_chat_loading">Generating summary…</string>
+    <string name="summarize_group_chat_group_only">This action is only available in groups.</string>
+    <string name="summarize_group_chat_no_key">Configure the API key first (long-press the menu item).</string>
+    <string name="summarize_group_chat_empty">No text messages to summarize.</string>
+    <string name="summarize_group_chat_empty_result">(The model returned no content)</string>
+    <string name="summarize_group_chat_copy">Copy all</string>
+    <string name="summarize_group_chat_share">Send to WeChat</string>
+    <string name="summarize_group_chat_moments">Moments</string>
+    <string name="summarize_group_chat_settings_title">Group chat summary settings</string>
+    <string name="summarize_group_chat_set_base_url">API base URL</string>
+    <string name="summarize_group_chat_set_key">API key</string>
+    <string name="summarize_group_chat_set_model">Model name</string>
+    <string name="summarize_group_chat_set_count">Messages to read (10-500)</string>
+    <string name="dialog_save">Save</string>
 </resources>
