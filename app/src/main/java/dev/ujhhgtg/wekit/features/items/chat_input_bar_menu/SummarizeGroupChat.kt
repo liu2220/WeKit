@@ -81,6 +81,9 @@ object SummarizeGroupChat : SwitchFeature() {
     override val descriptionRes = R.string.feature_summarize_group_chat_description
     override val categoryIds = listOf(FeatureCategoryIds.CHAT)
 
+    // 测试版默认开启，省去在 WeKit 设置里手动打开的步骤。
+    override val defaultEnabled = true
+
     // ---- 用户配置（KvStore 持久化；语义对齐 fkwechat 的 ai_api_* 配置）----
     private var apiBaseUrl by KvStore.prefOption(
         "summarize_gc_api_base_url",
